@@ -1,0 +1,186 @@
+
+            C OPTION DATA
+     --------------------------
+
+# 1 Inserting records into the Tree: 
+
+Inserted => Moutafis  
+
+Inserted => Ikerd     
+
+Inserted => Gladwin   
+
+Inserted => Robson    
+
+Inserted => Dang      
+
+Inserted => Bird      
+
+Inserted => Harris    
+
+Inserted => Ortiz     
+
+# 2 Iterative search for Ortiz: 584-3622  
+
+# 3 Recursive search for Ortiz: 584-3622  
+
+# 4 Iterative search for Penton: 
+Penton     not found
+          
+
+# 5 Recursive search for Penton: 
+Penton     not found
+          
+
+# 6 Inorder transversal, displaying records and beginning: 
+Name: Bird        Phone: 291-7890  
+Name: Dang        Phone: 295-1882  
+Name: Gladwin     Phone: 295-1601  
+Name: Harris      Phone: 294-8075  
+Name: Ikerd       Phone: 291-1864  
+Name: Moutafis    Phone: 295-1492  
+Name: Ortiz       Phone: 584-3622  
+Name: Robson      Phone: 293-6122  
+
+
+# 7 Inserting records into the Tree: 
+
+Inserted => Avila     
+
+Inserted => Quijada   
+
+Inserted => Villatoro 
+
+# 8 InOrder transversal beginning with tree Root: 
+
+Name: Avila       Phone: 294-1568  
+Name: Bird        Phone: 291-7890  
+Name: Dang        Phone: 295-1882  
+Name: Gladwin     Phone: 295-1601  
+Name: Harris      Phone: 294-8075  
+Name: Ikerd       Phone: 291-1864  
+Name: Moutafis    Phone: 295-1492  
+Name: Ortiz       Phone: 584-3622  
+Name: Quijada     Phone: 294-1882  
+Name: Robson      Phone: 293-6122  
+Name: Villatoro   Phone: 295-6622  
+
+# 9 Preorder iterative transversal: 
+
+Name: Moutafis    Phone: 295-1492  
+Name: Ikerd       Phone: 291-1864  
+Name: Gladwin     Phone: 295-1601  
+Name: Dang        Phone: 295-1882  
+Name: Bird        Phone: 291-7890  
+Name: Avila       Phone: 294-1568  
+Name: Harris      Phone: 294-8075  
+Name: Robson      Phone: 293-6122  
+Name: Ortiz       Phone: 584-3622  
+Name: Quijada     Phone: 294-1882  
+Name: Villatoro   Phone: 295-6622  
+
+# 10 PostOrder iterative transversal: 
+
+Name: Avila       Phone: 294-1568  
+Name: Bird        Phone: 291-7890  
+Name: Dang        Phone: 295-1882  
+Name: Harris      Phone: 294-8075  
+Name: Gladwin     Phone: 295-1601  
+Name: Ikerd       Phone: 291-1864  
+Name: Quijada     Phone: 294-1882  
+Name: Ortiz       Phone: 584-3622  
+Name: Villatoro   Phone: 295-6622  
+Name: Robson      Phone: 293-6122  
+Name: Moutafis    Phone: 295-1492  
+
+
+B OPTION DATA
+-------------
+
+# 7 Deleting records: 
+
+
+Could not get Delete to work properly for all of these nodes
+
+# 8 Inserting records: 
+
+Inserted => Poudel    
+
+Inserted => Spell     
+
+
+# 9 InOrder Traversal from Root: 
+
+Name: Avila       Phone: 294-1568  
+Name: Bird        Phone: 291-7890  
+Name: Dang        Phone: 295-1882  
+Name: Gladwin     Phone: 295-1601  
+Name: Harris      Phone: 294-8075  
+Name: Ikerd       Phone: 291-1864  
+Name: Moutafis    Phone: 295-1492  
+Name: Ortiz       Phone: 584-3622  
+Name: Poudel      Phone: 294-1666  
+Name: Quijada     Phone: 294-1882  
+Name: Robson      Phone: 293-6122  
+Name: Spell       Phone: 295-1882  
+Name: Villatoro   Phone: 295-6622  
+
+# 10 Reverse Transverse InOrder from Root: 
+
+Name: Villatoro   Phone: 295-6622  
+Name: Spell       Phone: 295-1882  
+Name: Robson      Phone: 293-6122  
+Name: Quijada     Phone: 294-1882  
+Name: Poudel      Phone: 294-1666  
+Name: Ortiz       Phone: 584-3622  
+Name: Moutafis    Phone: 295-1492  
+Name: Ikerd       Phone: 291-1864  
+Name: Harris      Phone: 294-8075  
+Name: Gladwin     Phone: 295-1601  
+Name: Dang        Phone: 295-1882  
+Name: Bird        Phone: 291-7890  
+
+
+A OPTION DATA
+-------------
+
+
+# 12 PostOrder iterative transversal: 
+
+Name: Avila       Phone: 294-1568  
+Name: Bird        Phone: 291-7890  
+Name: Dang        Phone: 295-1882  
+Name: Harris      Phone: 294-8075  
+Name: Gladwin     Phone: 295-1601  
+Name: Ikerd       Phone: 291-1864  
+Name: Poudel      Phone: 294-1666  
+Name: Quijada     Phone: 294-1882  
+Name: Ortiz       Phone: 584-3622  
+Name: Spell       Phone: 295-1882  
+Name: Villatoro   Phone: 295-6622  
+Name: Robson      Phone: 293-6122  
+Name: Moutafis    Phone: 295-1492  
+
+
+# 13 Post Order Recursive Traversal: 
+
+Name: Avila       Phone: 294-1568  
+Name: Bird        Phone: 291-7890  
+Name: Dang        Phone: 295-1882  
+Name: Harris      Phone: 294-8075  
+Name: Gladwin     Phone: 295-1601  
+Name: Ikerd       Phone: 291-1864  
+Name: Poudel      Phone: 294-1666  
+Name: Quijada     Phone: 294-1882  
+Name: Ortiz       Phone: 584-3622  
+Name: Spell       Phone: 295-1882  
+Name: Villatoro   Phone: 295-6622  
+Name: Robson      Phone: 293-6122  
+Name: Moutafis    Phone: 295-1492  
+
+
+Deallocating all tree nodes...
+
+Pulling the Root from the tree...      Done.
+Binary Tree successfully completed.
+
