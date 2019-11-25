@@ -1,4 +1,5 @@
-  ***INC***
 Binary Search Tree 
-Grading Option:
-grade ->
+Grading Option: A
+grade -> 
+
+known errors: deletion of random node
