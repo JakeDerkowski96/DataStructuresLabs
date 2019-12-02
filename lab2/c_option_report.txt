@@ -1,0 +1,97 @@
+﻿
+
+C Option Output
+
+
+
+Data Set 1:
+
+┌─[✗]─[hooman@debian]─[~/workspaces/ada/lab02_topological_sort/c_option]
+└──╼ $./main
+How many jobs are there? (NA):  9
+Enter the number of relations (Number of tasks): 15
+Enter the predeccessor (J): 1
+Enter the successor (K): 2
+Enter the predeccessor (J): 1
+Enter the successor (K): 3
+Enter the predeccessor (J): 4
+Enter the successor (K): 1
+Enter the predeccessor (J): 3
+Enter the successor (K): 8
+Enter the predeccessor (J): 8
+Enter the successor (K): 2
+Enter the predeccessor (J): 4
+Enter the successor (K): 2
+Enter the predeccessor (J): 4
+Enter the successor (K): 5
+Enter the predeccessor (J): 6
+Enter the successor (K): 4
+Enter the predeccessor (J): 5
+Enter the successor (K): 7
+Enter the predeccessor (J): 2
+Enter the successor (K): 7
+Enter the predeccessor (J): 9
+Enter the successor (K): 8
+Enter the predeccessor (J): 9
+Enter the successor (K): 6
+Enter the predeccessor (J): 2
+Enter the successor (K): 7
+Enter the predeccessor (J): 4
+Enter the successor (K): 2
+Enter the predeccessor (J): 9
+Enter the successor (K): 8
+Topological Sort has completed successfully.
+One possible solution:  9 6 4 5 1 3 8 2 7
+
+
+
+
+
+
+
+
+
+Data Set 2:
+
+─[hooman@debian]─[~/workspaces/ada/lab02_topological_sort/c_option]
+└──╼ $./main
+How many jobs are there? (NA):  9
+Enter the number of relations (Number of tasks): 18
+
+Enter the predeccessor (J): 1
+Enter the successor (K): 2
+Enter the predeccessor (J): 1
+Enter the successor (K): 3
+Enter the predeccessor (J): 2
+Enter the successor (K): 3
+Enter the predeccessor (J): 4
+Enter the successor (K): 1
+Enter the predeccessor (J): 3
+Enter the successor (K): 8
+Enter the predeccessor (J): 8
+Enter the successor (K): 9
+Enter the predeccessor (J): 8
+Enter the successor (K): 2
+Enter the predeccessor (J): 4
+Enter the successor (K): 2
+Enter the predeccessor (J): 4
+Enter the successor (K): 5
+Enter the predeccessor (J): 6
+Enter the successor (K): 4
+Enter the predeccessor (J): 5
+Enter the successor (K): 7
+Enter the predeccessor (J): 2
+Enter the successor (K): 7
+Enter the predeccessor (J): 7
+Enter the successor (K): 9
+Enter the predeccessor (J): 9
+Enter the successor (K): 8
+Enter the predeccessor (J): 9
+Enter the successor (K): 6
+Enter the predeccessor (J): 2
+Enter the successor (K): 7
+Enter the predeccessor (J): 4
+Enter the successor (K): 2
+Enter the predeccessor (J): 9
+Enter the successor (K): 8
+The following nodes are in a loop:  8 2 7 9 8
